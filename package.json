@@ -1,0 +1,23 @@
+{
+  "name": "vsx-theme-reify",
+  "displayName": "Reify",
+  "description": "Reid's color themes",
+  "version": "0.0.1",
+  "publisher": "reid47",
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Reify Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reify-dark-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {}
+}
