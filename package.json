@@ -2,6 +2,10 @@
   "name": "vsx-theme-reify",
   "displayName": "Reify",
   "description": "Reid's color themes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reid47/vsx-theme.reify.git"
+  },
   "version": "0.0.1",
   "publisher": "reid47",
   "engines": {
@@ -19,5 +23,11 @@
       }
     ]
   },
-  "scripts": {}
+  "scripts": {
+    "package": "npx vsce package",
+    "preinstall:codium": "npm run package",
+    "preinstall:vscode": "npm run package",
+    "install:codium": "node -e \"p=require('./package');console.log(p.name+'-'+p.version)\" | xargs -I{} codium --install-extension {}.vsix",
+    "install:vscode": "node -e \"p=require('./package');console.log(p.name+'-'+p.version)\" | xargs -I{} code --install-extension {}.vsix"
+  }
 }
