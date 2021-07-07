@@ -9,7 +9,7 @@ For VSCodium:
 ```shell
 npm install
 npm run package
-codium --install ./vsx-theme-reify-0.0.1.vsix
+codium --install-extension ./vsx-theme-reify-0.0.1.vsix
 ```
 
 For VS Code:
@@ -17,7 +17,7 @@ For VS Code:
 ```shell
 npm install
 npm run package
-code --install ./vsx-theme-reify-0.0.1.vsix
+code --install-extension ./vsx-theme-reify-0.0.1.vsix
 ```
 
 Or, after `npm run package`, you can open the command palette, find "Extensions: Install from VSIX...", and install the `.vsix` file that way.
