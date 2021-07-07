@@ -12,11 +12,11 @@
     "editorGroup.border": "#f8f8f8",
     "editorIndentGuide.activeBackground": "#707070",
     "editorIndentGuide.background": "#404040",
+    "gitDecoration.addedResourceForeground": "#f8f8f8",
     "gitDecoration.conflictingResourceForeground": "#ec5948",
+    "gitDecoration.ignoredResourceForeground": "#A9A3B8",
     "gitDecoration.modifiedResourceForeground": "#f8f8f8",
     "gitDecoration.submoduleResourceForeground": "#f8f8f8",
-    "gitDecoration.ignoredResourceForeground": "#A9A3B8",
-    "gitDecoration.addedResourceForeground": "#f8f8f8",
     "gitDecoration.untrackedResourceForeground": "#f8f8f8",
     "input.placeholderForeground": "#a6a6a6",
     "list.dropBackground": "#383b3d",
@@ -32,9 +32,9 @@
     "sideBarTitle.foreground": "#bbbbbb",
     "statusBar.background": "#090920",
     "statusBar.border": "#f8f8f8",
+    "statusBar.debuggingBackground": "#090920",
     "statusBar.noFolderBackground": "#090920",
     "statusBar.noFolderBorder": "#f8f8f8",
-    "statusBar.debuggingBackground": "#090920",
     "statusBarItem.remoteBackground": "#16825d",
     "statusBarItem.remoteForeground": "#f8f8f8",
     "tab.lastPinnedBorder": "#cccccc33",
@@ -56,7 +56,21 @@
     "terminal.ansiYellow": "#fdb462",
     "terminal.border": "#f8f8f8",
     "terminal.foreground": "#f8f8f8",
-    "terminal.selectionBackground": "#dcb77440"
+    "terminal.selectionBackground": "#dcb77440",
+
+    // STILL EXPERIMENTING WITH THESE:
+    "quickInputList.focusBackground": "#3a3a49",
+    "quickInputTitle.background": "#090920",
+    "quickInput.background": "#090920",
+    "quickInput.foreground": "#f8f8f8",
+    "editorWidget.background": "#090920",
+    "editorWidget.border": "#f8f8f8",
+    "widget.shadow": "#ffffff1e",
+    "list.highlightForeground": "#fdb462",
+    "list.focusOutline": "#f8f8f8",
+    "editorWidget.foreground": "#f8f8f8",
+    "input.background": "#090920",
+    "focusBorder": "#f8f8f8"
   },
   "tokenColors": [
     {
