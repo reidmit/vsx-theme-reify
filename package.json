@@ -2,12 +2,13 @@
   "name": "vsx-theme-reify",
   "displayName": "Reify",
   "description": "Reid's color themes",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reid47/vsx-theme-reify.git"
+    "url": "https://github.com/reidmit/vsx-theme-reify.git"
   },
   "version": "0.0.1",
-  "publisher": "reid47",
+  "publisher": "reidmit",
   "engines": {
     "vscode": "^1.23.0"
   },
@@ -24,10 +25,6 @@
     ]
   },
   "scripts": {
-    "package": "npx vsce package",
-    "preinstall:codium": "npm run package",
-    "preinstall:vscode": "npm run package",
-    "install:codium": "node -e \"p=require('./package');console.log(p.name+'-'+p.version)\" | xargs -I{} codium --install-extension {}.vsix",
-    "install:vscode": "node -e \"p=require('./package');console.log(p.name+'-'+p.version)\" | xargs -I{} code --install-extension {}.vsix"
+    "package": "npx vsce package"
   }
 }
